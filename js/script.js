@@ -1,6 +1,8 @@
-function double(number) {
+let myNumber = 5;
+
+let double = number => {
+    console.log(`myNumber wynosi ${myNumber}`)
     return number *2;
 }
 
-console.log(double(5));
-console.log(double(100));
+console.log(double(myNumber));
